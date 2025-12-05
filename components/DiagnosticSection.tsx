@@ -1,2 +1,1 @@
-import { DiagnosticSection } from "../DiagnosticSection";
-export default DiagnosticSection;
+export { DiagnosticSection } from "../DiagnosticSection";
