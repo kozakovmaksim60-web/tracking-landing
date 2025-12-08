@@ -1,12 +1,14 @@
 import { Button } from "./ui/button";
 import { ArrowRight, Target, TrendingUp, Focus } from "lucide-react";
-import profileImage from "figma:asset/c32945f814e483ab1cbc23c79115b62230190822.png";
 
 export function HeroSection() {
   const scrollToDiagnostic = () => {
     const element = document.getElementById('diagnostic-section');
     element?.scrollIntoView({ behavior: 'smooth' });
   };
+
+  // Профессиональное изображение консультанта
+  const profileImage = "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=600&h=800&fit=crop&q=80";
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
